@@ -13,12 +13,13 @@
 
 </head>
 <body>
-    <div class="header"><img src="Images/banner.jpg" />     
+    <div class="header">
+        <img src="Images/banner.jpg" />
         <nav>
-            <a href="~/Admin/default.aspx" runat="server">Home</a>
-			<a href="~/product.aspx/Products" runat="server">Product</a>
-			<a href="~/contact.aspx" runat="server">Contact</a>
-            <a href="~/login.aspx" runat="server">Login</a>
+            <a href="Admin/default.aspx">Home</a>
+            <a href="product.aspx">Product</a>            
+            <a href="contact.aspx">Contact</a>
+            <a href="login.aspx">Login</a>
         </nav>
     </div>
 
