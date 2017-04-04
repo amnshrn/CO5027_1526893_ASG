@@ -13,14 +13,12 @@
 
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <div class="header">           
+    <div class="header"><img src="Images/banner.jpg" />     
         <nav>
             <a href="~/Admin/default.aspx" runat="server">Home</a>
 			<a href="~/product.aspx/Products" runat="server">Product</a>
-			<a href="~/about.aspx" runat="server">About Us</a>
 			<a href="~/contact.aspx" runat="server">Contact</a>
+            <a href="~/login.aspx" runat="server">Login</a>
         </nav>
     </div>
 
@@ -31,7 +29,7 @@
         <footer>
 		    <p>Copyright @ 1526893. All rights reserved.</p>
 	    </footer>
-    </div>
-    </form>
+    
+    
 </body>
 </html>

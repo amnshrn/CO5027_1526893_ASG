@@ -1,6 +1,6 @@
 ﻿.header{
-	background-image: url('../Images/banner.jpg');
-	background-repeat: no-repeat;
+	margin-left: auto;
+    margin-right: auto;
 }
 body{
     background-image: none;
@@ -13,12 +13,11 @@ body h2 {
     text-align: center;
 }
 nav{
-	margin-left: 380px;
 	text-align: center;
 	background-color: gray;
 	font-family: "Courier New", Courier, monospace;
-	font-size: 25px;
-	padding: 29px;	
+	font-size: 30px;
+	padding: 20px;	
 }
 nav a{
 	color: black;
@@ -31,9 +30,12 @@ nav a:hover{
 }
 footer  {
 	font-family: "Courier New", Courier, monospace;
+    text-align: center;
 	float: right;
-	margin: auto;
-	width: auto;
+	margin-top: 10px;
+	padding: 10px;
+    height: 20px;
+    width: 100%;
 	background-color: gray;	
 }
 .galleryTable{
@@ -56,7 +58,7 @@ footer  {
 .default img.link{
     position: absolute;
     top: 450px;
-    left: 480px;
+    left: 440px;
 }
 .hoverImage {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

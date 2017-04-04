@@ -4,8 +4,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Contact Us</h2>
-    <p><asp:Label ID="lblTitle" runat="server" Text="Personal Title" AssociatedControlID="titleList"></asp:Label> 
-    
+    <p><asp:Label ID="lblTitle" runat="server" Text="Personal Title" AssociatedControlID="titleList"></asp:Label>    
+    &nbsp;&nbsp;&nbsp;     
     <asp:DropDownList ID="titleList" runat="server">
         <asp:ListItem>Mr.</asp:ListItem>
         <asp:ListItem>Mrs.</asp:ListItem>
