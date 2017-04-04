@@ -1,0 +1,70 @@
+﻿.header{
+	background-image: url('../Images/banner.jpg');
+	background-repeat: no-repeat;
+}
+body{
+    background-image: none;
+    background-color: white;
+	font-family: arial, sans-serif;
+	text-align:justify;
+	color: black;	
+}
+body h2 {
+    text-align: center;
+}
+nav{
+	margin-left: 380px;
+	text-align: center;
+	background-color: gray;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 25px;
+	padding: 29px;	
+}
+nav a{
+	color: black;
+	margin: 30px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+nav a:hover{
+	background-color: white;
+}
+footer  {
+	font-family: "Courier New", Courier, monospace;
+	float: right;
+	margin: auto;
+	width: auto;
+	background-color: gray;	
+}
+.galleryTable{
+	text-align:center;
+    position:center;
+}
+.galleryTable img{
+	height: 200px;
+	width: 200px;
+	padding-left: 85px;
+    padding-right: 85px;
+	margin-left: 30px;
+}
+.default img{
+    margin-top: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.default img.link{
+    position: absolute;
+    top: 450px;
+    left: 480px;
+}
+.hoverImage {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hoverImage img:hover{
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.4), 0 8px 23px 0 rgba(0, 0, 0, 0.20);
+	cursor: pointer;
+}
+.productLink{
+    float: right;
+}
