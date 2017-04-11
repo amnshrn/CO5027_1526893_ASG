@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     
     <!--Stylesheet file-->
     <link href="Styles/myStyle.css" rel="stylesheet" />
@@ -13,10 +13,11 @@
 
 </head>
 <body>
+    <form id="form1" runat="server">
     <div class="header">
         <img src="Images/banner.jpg" />
         <nav>
-            <a href="Admin/default.aspx">Home</a>
+            <a href="default.aspx">Home</a>
             <a href="product.aspx">Product</a>            
             <a href="contact.aspx">Contact</a>
             <a href="login.aspx">Login</a>
@@ -28,9 +29,12 @@
         </asp:ContentPlaceHolder>
 
         <footer>
-		    <p>Copyright @ 1526893. All rights reserved.</p>
+		    <p>Copyright @ 1526893. All rights reserved.
+                <a href="http://validator.w3.org/check?uri=referer">Validate HTML</a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+                <a href="default.aspx">ADMIN</a>
+		    </p>
 	    </footer>
-    
-    
+     </form>
 </body>
 </html>

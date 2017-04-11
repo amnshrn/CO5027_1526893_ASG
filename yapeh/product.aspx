@@ -2,6 +2,13 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <!-- REFERENCE LIST
+        Retrieved from https://www.amazon.com/iOttie-Holder-iPhone-Samsung-Galaxy/dp/B00JRGOKQ8?ie=UTF8&tag=blogzeus-20
+        Retrieved from https://www.zizowireless.com/products/amsw-iph6s
+        Retrieved from https://www.aliexpress.com/item/4000Mah-External-Rechargeable-Battery-Power-Case-Backup-Power-Bank-with-Stand-Holder-for-iPhone-6-Plus/32578466213.html?spm=2114.40010208.4.141.nuZFZy
+        Retrieved from https://www.amazon.com/Satechi-Portable-Rechargeable-Speaker-Smartphones/dp/B0060O9P1U/ref=sr_1_12?ie=UTF8&keywords=smartphone+speaker+dock&qid=1477751798&sr=8-12&tag=gadgetpicks-20
+        Retrieved from https://www.bestlatest.com/cell-phone-holder-4-pack-twb-universal-smartphone-ring-grip-stand-car-mounts-for-iphone-ipad-samsung-htc-nokia-smartphones-tablet-rose-red-e2caf2b51dbbb1a8.html
+        Retrieved from http://www.gadgetreview.com/une-bobine-iphone-lightning-cable-review -->
     <script src="javaScript/lightbox.min.js"></script>
 
 	<div class="galleryTable">

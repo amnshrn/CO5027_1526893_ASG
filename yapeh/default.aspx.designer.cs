@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace yapeh.Admin
+namespace yapeh
 {
 
 

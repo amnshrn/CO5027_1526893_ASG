@@ -4,6 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h2>Contact Us</h2>
+
+    <div class="map"><img src="Images/map.PNG" style="height: 436px; width: 743px" /></div>
+    
     <p><asp:Label ID="lblTitle" runat="server" Text="Personal Title" AssociatedControlID="titleList"></asp:Label>    
     &nbsp;&nbsp;&nbsp;     
     <asp:DropDownList ID="titleList" runat="server">
@@ -21,10 +24,11 @@
     <asp:TextBox ID="txtSubject" runat="server" Width="200px"></asp:TextBox>
 
     <p><asp:Label ID="lblMessage" runat="server" Text="Message" AssociatedControlID="txtMessage"></asp:Label></p>    
-    <asp:TextBox ID="txtMessage" runat="server" Height="70px" Width="200px" TextMode="MultiLine"></asp:TextBox>
+    <asp:TextBox ID="txtMessage" runat="server" Height="100px" Width="200px" TextMode="MultiLine"></asp:TextBox>
 
     <p><asp:Button ID="btnProcessMessage" runat="server" Text="Send" OnClick="btnProcessMessage_Click" /></p>
     
     <p><asp:Literal ID="litMessage" runat="server"></asp:Literal></p>
-        
+    
+    
 </asp:Content>
