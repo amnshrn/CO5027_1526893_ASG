@@ -10,25 +10,7 @@
 namespace yapeh {
     
     
-    public partial class WebForm2 {
-        
-        /// <summary>
-        /// lblTitle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblTitle;
-        
-        /// <summary>
-        /// titleList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList titleList;
+    public partial class register {
         
         /// <summary>
         /// lblName control.
@@ -40,13 +22,13 @@ namespace yapeh {
         protected global::System.Web.UI.WebControls.Label lblName;
         
         /// <summary>
-        /// txtName control.
+        /// txtFullName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtName;
+        protected global::System.Web.UI.WebControls.TextBox txtFullName;
         
         /// <summary>
         /// reqValName control.
@@ -85,75 +67,75 @@ namespace yapeh {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValEmail;
         
         /// <summary>
-        /// lblSubject control.
+        /// lblUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblSubject;
+        protected global::System.Web.UI.WebControls.Label lblUsername;
         
         /// <summary>
-        /// txtSubject control.
+        /// txtUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtSubject;
+        protected global::System.Web.UI.WebControls.TextBox txtUsername;
         
         /// <summary>
-        /// reqValSubj control.
+        /// reqValUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValSubj;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValUsername;
         
         /// <summary>
-        /// lblMessage control.
+        /// lblPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblMessage;
+        protected global::System.Web.UI.WebControls.Label lblPassword;
         
         /// <summary>
-        /// txtMessage control.
+        /// txtPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtMessage;
+        protected global::System.Web.UI.WebControls.TextBox txtPass;
         
         /// <summary>
-        /// reqValMsg control.
+        /// reqValPass control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValMsg;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator reqValPass;
         
         /// <summary>
-        /// btnProcessMessage control.
+        /// btnReg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnProcessMessage;
+        protected global::System.Web.UI.WebControls.Button btnReg;
         
         /// <summary>
-        /// litMessage control.
+        /// litError control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Literal litMessage;
+        protected global::System.Web.UI.WebControls.Literal litError;
     }
 }

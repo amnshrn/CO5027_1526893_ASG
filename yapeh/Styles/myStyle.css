@@ -57,7 +57,12 @@ footer  {
 .default img.link{
     position: absolute;
     top: 550px;
-    left: 610px;
+    left: 550px;
+}
+.border{
+    text-align: center;
+    border: 2px solid;
+    margin-top: 5px;
 }
 .hoverImage {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -69,7 +74,7 @@ footer  {
 .productLink{
     float: right;
 }
-.map{
-    position: absolute;
-    left: 250px;
+.centerText{
+    text-align: center;
 }
+

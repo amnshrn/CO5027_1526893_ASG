@@ -15,9 +15,9 @@
 			<h2>All Products</h2>
             <table>					
 					<tr>
-					    <td><a href="Products/cellPhoneHolder.aspx"><img src="Images/cellPhoneHolder.jpg" alt="Cell Phone Holder" /></a></td>										
-					    <td><a href="Products/case.aspx"><img src="Images/case.jpeg" alt="Shockproof Casing" /></a></td>										
-					    <td><a href="Products/powercase.aspx"><img src="Images/powercase.jpg" alt="Powercase" /></a></td>
+					    <td><a href="Products/cellPhoneHolder.aspx" runat="server"><img src="Images/cellPhoneHolder.jpg" alt="Cell Phone Holder" /></a></td>										
+					    <td><a href="Products/case.aspx" runat="server"><img src="Images/case.jpeg" alt="Shockproof Casing" /></a></td>										
+					    <td><a href="Products/powercase.aspx" runat="server"><img src="Images/powercase.jpg" alt="Powercase" /></a></td>
 					</tr>					
                     <tr>
                         <td><a href="Products/cellPhoneHolder.aspx"><p>Cell Phone Holder</p></a></td>
@@ -25,9 +25,9 @@
                         <td><a href="Products/powercase.aspx"><p>Power Casing</p></a></td>
                     </tr>
                     <tr>
-					    <td><a href="Products/speakerDock.aspx"><img src="Images/speakerDock.jpg" alt="Speaker Dock" /></a></td>
-                        <td><a href="Products/flexibleCableStand.aspx"><img src="Images/flexibleStandCable.jpg" alt="Flexible Stand Cable" /></a></td>
-					    <td><a href="Products/ringPhoneHolder.aspx"><img src="Images/ringPhoneHolder.jpg" alt="iRing Phone Holder" /></a></td>
+					    <td><a href="Products/speakerDock.aspx" runat="server"><img src="Images/speakerDock.jpg" alt="Speaker Dock" /></a></td>
+                        <td><a href="Products/flexibleCableStand.aspx" runat="server"><img src="Images/flexibleStandCable.jpg" alt="Flexible Stand Cable" /></a></td>
+					    <td><a href="Products/ringPhoneHolder.aspx" runat="server"><img src="Images/ringPhoneHolder.jpg" alt="iRing Phone Holder" /></a></td>
 					</tr>
                     <tr>
                         <td><a href="Products/speakerDock.aspx"><p>Divoom Speaker Dock</p></a></td>
