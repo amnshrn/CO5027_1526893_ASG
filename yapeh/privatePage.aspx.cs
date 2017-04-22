@@ -18,7 +18,7 @@ namespace yapeh
         protected void btnLogOut_Click(object sender, EventArgs e)
         {
             HttpContext.Current.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
-            Server.Transfer("Login.aspx", true);
+            Server.Transfer("login.aspx", true);
         }
     }
 }

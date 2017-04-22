@@ -77,4 +77,12 @@ footer  {
 .centerText{
     text-align: center;
 }
+#lcbMap {
+    width: 1000px;
+    height: 400px;
+    background-color: gray;
+    position: absolute;
+    top: 260px;
+    left: 290px;
+}
 

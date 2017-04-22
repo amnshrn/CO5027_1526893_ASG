@@ -12,8 +12,7 @@ namespace yapeh
 {
     public partial class register : System.Web.UI.Page
     {
-        private DbContext identityDbContext;
-
+     
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -22,7 +21,7 @@ namespace yapeh
         protected void btnReg_Click(object sender, EventArgs e)
         {
             // create a dbcontext that specified the connection string
-            var identityDBContext = new IdentityDbContext("IdentityConnectionString");
+            var identityDbContext = new IdentityDbContext("IdentityConnectionString");
 
             //create user store and user manager
             var userStore = new UserStore<IdentityUser>(identityDbContext);
@@ -33,15 +32,16 @@ namespace yapeh
 
             //create user
             var user = new IdentityUser() { UserName = txtUsername.Text, Email = txtEmail.Text };
-            //manager.Create(user, txtPass.Text);
+            IdentityResult result = manager.Create(user, txtPass.Text);
 
-            IdentityResult result = manager.Create(user, txtPass.Text); //create role name (admin)
-            //roleManager.Create(endUserRole);
-            //manager.AddToRole(user.Id, admin);
-            //IdentityResult result = manager.Update(user);
+            IdentityRole endUserRole = new IdentityRole("admin");
+            //create role name (admin)
+            roleManager.Create(endUserRole);
+            manager.AddToRole(user.Id, "admin");
+            
             if (result.Succeeded)
             {
-                
+                Server.Transfer("login.aspx", true);
             }
 
             else
@@ -49,6 +49,11 @@ namespace yapeh
                 litError.Text = "An Error has occurred: " + result.Errors.FirstOrDefault();
             }
        
+        }
+
+        protected void txtPass_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
