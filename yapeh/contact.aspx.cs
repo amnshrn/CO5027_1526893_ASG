@@ -17,20 +17,21 @@ namespace yapeh
 
         protected void btnProcessMessage_Click(object sender, EventArgs e)
         {
+            //Retrieved from http://tutorials.tinyappco.com/ASPNET/Identity
+
             SmtpClient smtpClient = new SmtpClient();
             smtpClient.EnableSsl = true;
             smtpClient.UseDefaultCredentials = false;
             smtpClient.Host = "smtp.gmail.com";
             smtpClient.Port = 587;
-            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("c05027lcb@gmail.com", "P@55word1");
+            System.Net.NetworkCredential credentials = new System.Net.NetworkCredential("amnshrn12@gmail.com", "@indakuingat");
 
             smtpClient.Credentials = credentials;
 
-            MailMessage msg = new MailMessage("c05027lcb@gmail.com", txtEmail.Text);
-            msg.Subject = "Name: " + txtName.Text + "Subject: " + txtSubject.Text;
-            msg.Body = txtMessage.Text;
-            smtpClient.Send(msg);
-
+            MailMessage msg = new MailMessage("amnshrn12@gmail.com", "amnshrn12@gmail.com");
+            msg.Subject = "Name: " + titleList.Text + txtName.Text + " Email: " + txtEmail.Text + " Subject: " + txtSubject.Text;
+            msg.Body = "Message: "+ txtMessage.Text;            
+            
             try
             {
                 smtpClient.Send(msg);

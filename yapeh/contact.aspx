@@ -3,8 +3,9 @@
     
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!-- Map code retrieved from https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key -->
+    <!-- Map code, Retrieved from https://developers.google.com/maps/documentation/javascript/adding-a-google-map#key -->
     <script src="Scripts/map.js"></script>
+
     <h2>Contact Us</h2>
 
     <p><asp:Label ID="lblTitle" runat="server" Text="Personal Title: " AssociatedControlID="titleList"></asp:Label>    
@@ -35,6 +36,7 @@
     <p><asp:Button ID="btnProcessMessage" runat="server" Text="Send" OnClick="btnProcessMessage_Click" /></p>
     
     <p><asp:Literal ID="litMessage" runat="server"></asp:Literal></p>
+
 
     <div id="lcbMap"></div>   
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpTxmoyM1316oR9UqCwmgPEbtp_Z2Eii8&callback=initMap"></script>    
