@@ -15,4 +15,5 @@
     <p><strong>Mission: </strong>To sell authentic iPhone 6 accessories and new models in the nearer future.</p>
     <p><strong>Vision: </strong>Be ready for the next models to design better and improved accessories.</p>
     </div>
+    <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526893.studentwebserver.co.uk%2FCO5027%2Fdefault.aspx">Default page HTML Validator</a>
 </asp:Content>

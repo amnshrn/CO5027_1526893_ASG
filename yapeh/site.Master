@@ -15,7 +15,7 @@
 <body>
     <form id="form1" runat="server">
     <div class="header">
-        <img src="Images/banner.jpg" />
+        <img src="Images/banner.jpg" alt="bannerPic"/>
         <nav>
             <a href="default.aspx" runat="server">Home</a>
             <a href="product.aspx" runat="server">Product</a>            
@@ -30,11 +30,10 @@
 
         <footer>
 		    <p>Copyright @ 1526893. All rights reserved.
-                <a href="http://validator.w3.org/">Validate HTML</a>
-                <a href="http://jigsaw.w3.org/">Validate CSS</a>
-                <a href="default.aspx">ADMIN</a>
-		    </p>
-	    </footer>
+                <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526893.studentwebserver.co.uk%2FCO5027%2Fcontact.aspx">Contact page HTML Validator</a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+                <a href="default.aspx">ADMIN</a> </p>
+        </footer>
      </form>
 </body>
 </html>
