@@ -11,7 +11,7 @@ namespace yapeh
 {
 
 
-    public partial class product
+    public partial class cancel
     {
     }
 }

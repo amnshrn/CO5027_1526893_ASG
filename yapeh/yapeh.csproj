@@ -78,11 +78,14 @@
     <Reference Include="Microsoft.Owin.Security.OAuth, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PayPal, Version=1.8.0.0, Culture=neutral, PublicKeyToken=5b4afc1ccaef40fb, processorArchitecture=MSIL">
+      <HintPath>..\packages\PayPal.1.8.0\lib\net451\PayPal.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
@@ -102,6 +105,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="admin.aspx" />
+    <Content Include="cancel.aspx" />
+    <Content Include="completePurchase.aspx" />
     <Content Include="default.aspx" />
     <Content Include="gridview.aspx" />
     <Content Include="Images\banner.jpg" />
@@ -116,8 +122,8 @@
     <Content Include="Images\speakerDock.jpg" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
+    <Content Include="paypal.aspx" />
     <Content Include="privatePage.aspx" />
-    <Content Include="product.aspx" />
     <Content Include="Products\case.aspx" />
     <Content Include="Products\cellPhoneHolder.aspx" />
     <Content Include="Products\flexibleCableStand.aspx" />
@@ -150,6 +156,27 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="admin.aspx.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin.aspx.designer.cs">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="cancel.aspx.cs">
+      <DependentUpon>cancel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cancel.aspx.designer.cs">
+      <DependentUpon>cancel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="completePurchase.aspx.cs">
+      <DependentUpon>completePurchase.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="completePurchase.aspx.designer.cs">
+      <DependentUpon>completePurchase.aspx</DependentUpon>
+    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -174,19 +201,19 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
+    <Compile Include="paypal.aspx.cs">
+      <DependentUpon>paypal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paypal.aspx.designer.cs">
+      <DependentUpon>paypal.aspx</DependentUpon>
+    </Compile>
     <Compile Include="privatePage.aspx.cs">
       <DependentUpon>privatePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="privatePage.aspx.designer.cs">
       <DependentUpon>privatePage.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="product.aspx.cs">
-      <DependentUpon>product.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="product.aspx.designer.cs">
-      <DependentUpon>product.aspx</DependentUpon>
     </Compile>
     <Compile Include="Products\case.aspx.cs">
       <DependentUpon>case.aspx</DependentUpon>

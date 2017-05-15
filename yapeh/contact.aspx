@@ -39,5 +39,11 @@
 
 
     <div id="lcbMap"></div>   
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpTxmoyM1316oR9UqCwmgPEbtp_Z2Eii8&callback=initMap"></script>    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpTxmoyM1316oR9UqCwmgPEbtp_Z2Eii8&callback=initMap"></script>
+    <footer>
+		    <p>Copyright @ 1526893. All rights reserved.
+                <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526893.studentwebserver.co.uk%2FCO5027%2Fcontact.aspx">HTML Validator</a>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+                <a href="default.aspx">ADMIN</a> </p>
+        </footer>
 </asp:Content>
