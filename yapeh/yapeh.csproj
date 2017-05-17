@@ -106,31 +106,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="admin.aspx" />
-    <Content Include="cancel.aspx" />
-    <Content Include="completePurchase.aspx" />
     <Content Include="default.aspx" />
-    <Content Include="gridview.aspx" />
     <Content Include="Images\banner.jpg" />
     <Content Include="Images\case.jpeg" />
     <Content Include="Images\cellPhoneHolder.jpg" />
     <Content Include="Images\flexibleStandCable.jpg" />
-    <Content Include="Images\homePic.jpg" />
-    <Content Include="Images\map.PNG" />
     <Content Include="Images\powercase.jpg" />
     <Content Include="Images\ringPhoneHolder.jpg" />
-    <Content Include="Images\shopnow.jpg" />
     <Content Include="Images\speakerDock.jpg" />
     <Content Include="login.aspx" />
     <Content Include="packages.config" />
-    <Content Include="paypal.aspx" />
-    <Content Include="privatePage.aspx" />
+    <Content Include="productDetails.aspx" />
     <Content Include="Products\case.aspx" />
     <Content Include="Products\cellPhoneHolder.aspx" />
     <Content Include="Products\flexibleCableStand.aspx" />
     <Content Include="Products\powercase.aspx" />
     <Content Include="Products\speakerDock.aspx" />
     <Content Include="Products\ringPhoneHolder.aspx" />
-    <Content Include="register.aspx" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
     <Content Include="Scripts\jquery-3.1.1.min.js" />
@@ -151,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="uploadImages.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -163,20 +156,6 @@
     <Compile Include="admin.aspx.designer.cs">
       <DependentUpon>admin.aspx</DependentUpon>
     </Compile>
-    <Compile Include="cancel.aspx.cs">
-      <DependentUpon>cancel.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="cancel.aspx.designer.cs">
-      <DependentUpon>cancel.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="completePurchase.aspx.cs">
-      <DependentUpon>completePurchase.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="completePurchase.aspx.designer.cs">
-      <DependentUpon>completePurchase.aspx</DependentUpon>
-    </Compile>
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -187,13 +166,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="gridview.aspx.cs">
-      <DependentUpon>gridview.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="gridview.aspx.designer.cs">
-      <DependentUpon>gridview.aspx</DependentUpon>
-    </Compile>
     <Compile Include="login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -201,19 +173,12 @@
     <Compile Include="login.aspx.designer.cs">
       <DependentUpon>login.aspx</DependentUpon>
     </Compile>
-    <Compile Include="paypal.aspx.cs">
-      <DependentUpon>paypal.aspx</DependentUpon>
+    <Compile Include="productDetails.aspx.cs">
+      <DependentUpon>productDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="paypal.aspx.designer.cs">
-      <DependentUpon>paypal.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="privatePage.aspx.cs">
-      <DependentUpon>privatePage.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="privatePage.aspx.designer.cs">
-      <DependentUpon>privatePage.aspx</DependentUpon>
+    <Compile Include="productDetails.aspx.designer.cs">
+      <DependentUpon>productDetails.aspx</DependentUpon>
     </Compile>
     <Compile Include="Products\case.aspx.cs">
       <DependentUpon>case.aspx</DependentUpon>
@@ -258,13 +223,6 @@
       <DependentUpon>ringPhoneHolder.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="register.aspx.cs">
-      <DependentUpon>register.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="register.aspx.designer.cs">
-      <DependentUpon>register.aspx</DependentUpon>
-    </Compile>
     <Compile Include="site.Master.cs">
       <DependentUpon>site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -280,10 +238,18 @@
       <DependentUpon>contact.aspx</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="uploadImages.aspx.cs">
+      <DependentUpon>uploadImages.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uploadImages.aspx.designer.cs">
+      <DependentUpon>uploadImages.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="ProductImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -15,8 +15,6 @@
 
     <p><asp:Button ID="btnLog" runat="server" Text="Log In" OnClick="btnLog_Click" /></p>
 
-    <p>Dont have an account? Click <a href="register.aspx">here</a> to register</p>
-
     <p><asp:Literal ID="litLoginError" runat="server"></asp:Literal></p>
     </div>
 
@@ -24,6 +22,6 @@
 		    <p>Copyright @ 1526893. All rights reserved.
                 <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526893.studentwebserver.co.uk%2FCO5027%2Flogin.aspx">HTML Validator</a>
                 <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
-                <a href="default.aspx">ADMIN</a> </p>
+                <a href="admin.aspx">ADMIN</a> </p>
         </footer>    
 </asp:Content>

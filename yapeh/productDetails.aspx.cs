@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace yapeh.Products
+namespace yapeh
 {
-    public partial class powercase : System.Web.UI.Page
+    public partial class productDetails : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

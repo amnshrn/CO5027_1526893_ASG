@@ -30,10 +30,23 @@
                     <tr>
                         <td><p>Divoom Speaker Dock</p></td>
                         <td><p>Flexible Stand Cable</p></td>
-                        <td><p>iRing Phone Holder</p><td>
+                        <td><p>iRing Phone Holder</p></td>
                     </tr>					
 			</table>
 		</div>
+
+    <asp:Repeater ID="productRptr" runat="server" DataSourceID="ProductsDataSource">
+        <HeaderTemplate><table></HeaderTemplate>
+        <ItemTemplate>
+            <tr>
+                <td><a href="<%# Eval ("Id", "productDetails.aspx?Id={0}") %>"><%#Eval("Name") %></a></td>
+            </tr>
+        </ItemTemplate>
+        <FooterTemplate></table></FooterTemplate>
+    </asp:Repeater>
+    
+    <asp:SqlDataSource ID="ProductsDataSource" runat="server" ConnectionString="<%$ ConnectionStrings:db_1526893_co5027_asgConnectionString %>" SelectCommand="SELECT * FROM [Product]"></asp:SqlDataSource>
+
     <div class="border">
     <p>YAPEH™ is a small business that sells iPhone 6 accessories. It is found by Mr. Aiman Saleh, part-time entrepreneur and part-time student.</p>
     <p>It is found on October 19, 2014 - a month after the release date of iPhone 6. YAPEH™ was built to add extra hardware features to all iPhone 6/6s making it more useful and attractive. 
@@ -45,6 +58,6 @@
 		    <p>Copyright @ 1526893. All rights reserved.
                 <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2F1526893.studentwebserver.co.uk%2FCO5027%2Fdefault.aspx">HTML Validator</a>
                 <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
-                <a href="default.aspx">ADMIN</a> </p>
+                <a href="admin.aspx">ADMIN</a> </p>
         </footer>
 </asp:Content>
